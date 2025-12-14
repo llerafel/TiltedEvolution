@@ -1,11 +1,11 @@
 {
-  "INFO": "Polska lokalizacja do Skyrim Together: Reborn! Wersja: 1.4.0. Autor:<strong>Nutyo</strong>",
-
   "COMPONENT": {
     "CHAT": {
       "SEND": "Wyślij",
       "MESSAGE": "Wiadomość",
-      "MESSAGE_TOO_LONG": "Nie możesz wysłać wiadomości dłuższej niż {{chatMessageLengthLimit}} znaków."
+      "MESSAGE_TOO_LONG": "Nie możesz wysłać wiadomości dłuższej niż {{chatMessageLengthLimit}} znaków.",
+      "SET_TIME_ARGUMENT_COUNT": "Wrong arguments, usage: /settime HH MM, example: /settime 15 32.",
+      "SET_TIME_INVALID_ARGUMENTS": "The hours must be between 0 and 23, and the minutes between 0 and 59."
     },
     "CONNECT": {
       "INFO": {
@@ -15,6 +15,7 @@
       "ADDRESS": "Adres",
       "PASSWORD": "Hasło",
       "SAVE_PASSWORD": "Zapisz Hasło?",
+      "HIDE_PASSWORD": "Hide Password?",
       "CONNECT": "połącz",
       "CANCEL": "Anuluj",
       "PUBLIC_SERVERS": "Serwery Publiczne",
@@ -94,6 +95,7 @@
       "NO_SERVERS": "serwery publiczne są niedostępne",
       "HIDE_MISMATCHED_SERVERS": "Chowaj Serwery z nie kompatibilną wersją",
       "HIDE_FULL_SERVERS": "Chowaj pełne serwery",
+      "HIDE_PASSWORD_PROTECTED_SERVERS": "Hide password protected server",
       "SERVER_COUNT": "Pokazywanie {{filteredCount}} z {{count}} serwerów",
       "TABLE_HEADERS": {
         "NAME": "Nazwa Serwera",
@@ -149,7 +151,8 @@
     },
     "COMMANDS": {
       "AVAILABLE_COMMANDS": "Dostępne Komendy Czatu: {{cmds}}",
-      "COMMAND_NOT_FOUND": "'{{cmd}}' nie jest rozpoznawane jako Komenda."
+      "COMMAND_NOT_FOUND": "'{{cmd}}' nie jest rozpoznawane jako Komenda.",
+      "NOT_ADMIN": "You must be an admin to use that command."
     },
     "GROUP": {
       "LEVEL_UP": "{{name}} Osiągnął Poziom {{level}}.",
@@ -166,7 +169,9 @@
         "CLIENT_MODS_DISALLOWED": "Ten serwer nie pozwala na mody {{mods}}. Usuń je by dołończyć.",
         "WRONG_PASSWORD": "Hasło które wpisałeś jest niepoprawne.",
         "NO_REASON": "Serwer odmówił połączenia brak powodu.",
-        "SERVER_FULL": "Ten Serwer jest Pełen."
+        "SERVER_FULL": "Ten Serwer jest Pełen.",
+        "BAD_UGRIDSTOLOAD": "It seems that your Skyrim.ini file has a non-default value for 'uGridsToLoad'. THIS IS A VERY BAD IDEA, and will most likely break the mod. Please set this setting back to its default (5), or remove the Skyrim.ini file and launch Skyrim vanilla once to generate a new file. The settings 'uExterior Cell Buffer' and 'uInterior Cell Buffer' should also be left at the default setting. If you do not know how to do this, please refer to our wiki or ask on our Discord server/Reddit sub for help.",
+        "NON_DEFAULT_INSTALL": "It seems that your installation is not purely vanilla, i.e. it has Creation Club content (Anniversary Update or otherwise) or other mods.\nWe do NOT recommend playing with mods.\nWe recommend that you uninstall and disable these mods (instructions can be found on the wiki).\n\nFor the best experience, you should have the following mod list:<strong>\nSkyrim.esm\nUpdate.esm\nDawnguard.esm\nHearthFires.esm\nDragonborn.esm\n_ResourcePack.esl\nSkyrimTogether.esp</strong>"
       }
     },
     "PLAYER_LIST": {
