@@ -1,3 +1,5 @@
 files:
   - source: Code/skyrim_ui/src/assets/i18n/en.json
     translation: Code/skyrim_ui/src/assets/i18n/%two_letters_code%.json
+bundles:
+  - 10
